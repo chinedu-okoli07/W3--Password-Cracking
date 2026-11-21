@@ -126,4 +126,4 @@ All three files share the same encryption settings (Revision 4, 128-bit key), bu
 This exercise was performed only on files supplied for the Networkwalks lab. Password cracking tools should only be used on files and accounts you own or have explicit, written permission to test.
 
 ---
-*Author: Chinedu Okoli | #GraceMadeSecurity #TSAcademy*
+*Author: Chinedu Okoli | 
