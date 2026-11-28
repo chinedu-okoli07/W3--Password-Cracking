@@ -26,7 +26,7 @@ $pdf$4*4*128*-1028*1*16*ca7f72f11459cba469f1005a8765ed51*32*f32d8fa1bfbe2648226d
 ```
 nw{cybersecurity_flag_captured_2608}
 ```
-![PDF1 flag](screenshots/w3_1c_flag_pdf1.png)
+![PDF1 flag](screenshots/w3_1c_flag_pdf1.png.PNG)
 
 ### File 2: My Locked PDF2.pdf
 
@@ -34,16 +34,16 @@ nw{cybersecurity_flag_captured_2608}
 ```
 $pdf$4*4*128*-1028*1*16*0853f2cde0ef15b1c0f93ed229d3b1ad*32*8f13ce5aa39ad974364d36a057da76790021446990b9e4114071a4d9104984c1*32*ceecdac74b19b5a62688d3b3524e1374c955cbb9cc3c45316494d9446ef81af1
 ```
-![Hash extraction for PDF2](screenshots/w3_2a_hash_pdf2.png)
+![Hash extraction for PDF2](screenshots/w3_2a_hash_pdf2.png.PNG)
 
 **Step 2 — Load into Johnny and attack.** Password cracked: **`password1`**.
-![Johnny cracking PDF2](screenshots/w3_2b_johnny_pdf2.png)
+![Johnny cracking PDF2](screenshots/w3_2b_johnny_pdf2.png.PNG)
 
 **Step 3 — Open the PDF** with `password1`. Flag captured:
 ```
 nw{networkwalks_persistence_jtr_270521}
 ```
-![PDF2 flag](screenshots/w3_2c_flag_pdf2.png)
+![PDF2 flag](screenshots/w3_2c_flag_pdf2.png.PNG)
 
 ### File 3: My Locked PDF3.pdf
 
@@ -51,16 +51,16 @@ nw{networkwalks_persistence_jtr_270521}
 ```
 $pdf$4*4*128*-1028*1*16*34eb542eff4e1b0b32d25ce15a9a7281*32*b77872bfc9a24fb2f845066283a8fc1b0021446990b9e4114071a4d9104984c1*32*e7572256e4b552cd57988f5134214b91920d94d7a6bf550ea94a2995c7f2ab02
 ```
-![Hash extraction for PDF3](screenshots/w3_3a_hash_pdf3.png)
+![Hash extraction for PDF3](screenshots/w3_3a_hash_pdf3.png.PNG)
 
 **Step 2 — Load into Johnny and attack.** Password cracked: **`1qaz2wsx`**.
-![Johnny cracking PDF3](screenshots/w3_3b_johnny_pdf3.png)
+![Johnny cracking PDF3](screenshots/w3_3b_johnny_pdf3.png.PNG)
 
 **Step 3 — Open the PDF** with `1qaz2wsx`. Flag captured:
 ```
 nw{networkwalks_flag_260821_1}
 ```
-![PDF3 flag](screenshots/w3_3c_flag_pdf3.png)
+![PDF3 flag](screenshots/w3_3c_flag_pdf3.png.PNG)
 
 ### Attacker's view
 
@@ -83,7 +83,7 @@ Uploaded `My Locked PDF1.pdf` to `networkwalks.com/hash-calculator/` (PDF tab). 
 ```
 $pdf$4*4*128*-1028*1*16*ca7f72f11459cba469f1005a8765ed51*32*f32d8fa1bfbe2648226dffc39f7909ea0021446990b9e4114071a4d9104984c1*32*9322f50c29569712067a775264635e4954ccb1b99e209d664984054ffad30a6a
 ```
-![Networkwalks Hash Calculator extracting PDF1's hash](screenshots/w3_4_nw_hash_calculator.png)
+![Networkwalks Hash Calculator extracting PDF1's hash](screenshots/w3_4_nw_hash_calculator.png.PNG)
 
 ### Step 2: Crack a hash with the Networkwalks Password Cracker
 
@@ -95,7 +95,7 @@ $pdf$4*4*128*-1028*1*16*0853f2cde0ef15b1c0f93ed229d3b1ad*32*8f13ce5aa39ad974364d
 
 **Result:** password cracked as **`password1`**, matching the Johnny/JTR result for PDF2 in PM1.
 
-![Networkwalks Password Cracker cracking PDF2's hash](screenshots/w3_5_nw_password_cracker_pdf2.png)
+![Networkwalks Password Cracker cracking PDF2's hash](screenshots/w3_5_nw_password_cracker_pdf2.png.PNG)
 
 ### Why two tools, one answer
 
