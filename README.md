@@ -17,10 +17,10 @@ The same three-step process was repeated for each of the three locked PDFs: extr
 ```
 $pdf$4*4*128*-1028*1*16*ca7f72f11459cba469f1005a8765ed51*32*f32d8fa1bfbe2648226dffc39f7909ea0021446990b9e4114071a4d9104984c1*32*9322f50c29569712067a775264635e4954ccb1b99e209d664984054ffad30a6a
 ```
-![Hash extraction for PDF1](screenshots/w3_1a_hash_pdf1.png)
+![Hash extraction for PDF1](screenshots/w3_1a_hash_pdf1.png.PNG)
 
 **Step 2 — Load into Johnny and attack.** Password cracked: **`good-luck`**.
-![Johnny cracking PDF1](screenshots/w3_1b_johnny_pdf1.png)
+![Johnny cracking PDF1](screenshots/w3_1b_johnny_pdf1.png.PNG)
 
 **Step 3 — Open the PDF** with `good-luck`. Flag captured:
 ```
